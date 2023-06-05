@@ -1,0 +1,86 @@
+body {
+    background-color: #f9e6e9;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #c72c41;
+}
+
+#cart {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.item {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.item img {
+    width: 100px;
+    height: 100px;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.quantity {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #c72c41;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    width: 30px;
+    text-align: center;
+}
+
+.delete {
+    background-color: #333;
+    margin-top: 10px;
+}
+
+.delete:hover {
+    background-color: #000;
+}
+
+.like {
+    background-color: transparent;
+    border: none;
+    outline: none; 
+}
+
+.like i {
+    color: #ccc;
+}
+
+.like i.fa-heart {
+    color: #c72c41;
+}
+
+.like.liked i.fa-heart {
+    color: red; 
+}
+
+.tot{
+    font-size: 20px;
+}
